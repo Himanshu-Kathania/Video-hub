@@ -39,7 +39,7 @@ const Header = () => {
           <DrawerBody>
             <VStack alignItems={'flex-start'}>
               <Button onClick={onClose} variant={'ghost'} colorScheme="purple">
-                <Link to={'/Home'}>Home</Link>
+                <Link to={'/'}>Home</Link>
               </Button>
 
               <Button onClick={onClose} variant={'ghost'} colorScheme="purple">
