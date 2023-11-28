@@ -1,8 +1,9 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-import { Button } from '@chakra-ui/react';
+
 import Header from './componenets/Header';
 import Home from './componenets/Home';
 import Footer from './componenets/Footer';
+import Videos from './componenets/Videos';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/Videos" element={<Videos />} />
       </Routes>
       <Footer />
     </Router>

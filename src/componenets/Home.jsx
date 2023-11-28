@@ -15,7 +15,7 @@ const headingOptions = {
   top: '50%',
   transform: 'translate(-50%, -50%)',
   textTransform: 'upparcase',
-  p: '4xl',
+  p: '5xl',
 };
 
 const Home = () => {
@@ -36,6 +36,8 @@ const Home = () => {
               bgColor={'blackAlpha.600'}
               color={'white'}
               {...headingOptions}
+              textTransform={'uppercase'}
+              size={'4xl'}
             >
               Watch the future
             </Heading>
@@ -44,9 +46,11 @@ const Home = () => {
           <Box w={'full'} h={'100vh'}>
             <Image src={img2} />
             <Heading
+              size={'4xl'}
               bgColor={'whiteAlpha.600'}
               color={'black'}
               {...headingOptions}
+              textTransform={'uppercase'}
             >
               Tech Is Awsome!!!!
             </Heading>
@@ -55,9 +59,11 @@ const Home = () => {
           <Box w={'full'} h={'100vh'}>
             <Image src={img3} />
             <Heading
+              size={'4xl'}
               bgColor={'whiteAlpha.600'}
               color={'black'}
               {...headingOptions}
+              textTransform={'uppercase'}
             >
               Gaming Is Future.
             </Heading>
@@ -66,9 +72,11 @@ const Home = () => {
           <Box w={'full'} h={'100vh'}>
             <Image src={img4} />
             <Heading
+              size={'4xl'}
               bgColor={'whiteAlpha.600'}
               color={'black'}
               {...headingOptions}
+              textTransform={'uppercase'}
             >
               Night Life Is Coll
             </Heading>
