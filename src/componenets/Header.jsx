@@ -64,7 +64,7 @@ const Header = () => {
               justifyContent={'space-evenly'}
             >
               <Button onClick={onClose} colorScheme={'purple'}>
-                <Link to={'/login'}>Log In</Link>
+                <Link to={'/Login'}>Log In</Link>
               </Button>
 
               <Button
@@ -72,7 +72,7 @@ const Header = () => {
                 colorScheme={'purple'}
                 variant={'outline'}
               >
-                <Link to={'/signup'}>Sign Up</Link>
+                <Link to={'/Signup'}>Sign Up</Link>
               </Button>
             </HStack>
           </DrawerBody>
